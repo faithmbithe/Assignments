@@ -1,0 +1,89 @@
+body{
+    background-color: rgb(156, 65, 241);
+    font-family: 'Nunito Sans', sans-serif;
+}
+.topNav{
+    
+    width: 100%;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: aliceblue;
+}
+.nav a:hover{
+    background-color: rgb(238, 241, 241);
+    color: black;
+    border-radius: 10px;
+}
+.separate{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 25px;
+}
+.landing{
+   width: 100%;
+  text-align: center;
+ 
+}
+
+h1{
+    font-size: 50px;
+    margin-top: 60px;
+    letter-spacing: 3px;
+    color: rgb(40, 39, 39);
+}
+h4{
+    font-size:36px;
+    letter-spacing: 2px;
+    color: rgb(37, 37, 37);
+    text-align: center;
+}
+.aboutMe img{
+    width: 560px;
+    margin-top: 50px;
+}
+.btn-1{
+    padding: 10px 20px;
+    border: none;
+    background-color: azure;
+    border-radius: 10px;
+    color: blue;
+    font-size: 16px;
+    font-weight: 600;
+}
+aside{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.skills {
+ color: antiquewhite;
+ display: flex;
+ gap: 1.3em;
+}
+span{
+    margin-top: 20px;
+}
+input{
+    margin-top: -65px;
+}
+.card{
+    padding: 40px 20px;
+    border-radius: 20px;
+    background-color: azure;
+    color: rgb(25, 25, 25);
+    font-size: 18px;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
